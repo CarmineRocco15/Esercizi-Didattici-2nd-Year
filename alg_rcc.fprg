@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Alunno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-29 09:51:52 "/>
+        <attribute name="created" value="QWx1bm5vO1BDXzg7MjAyNi0wNC0yOTsiMDg6MzY6MjggIjsyMTI2"/>
+        <attribute name="edited" value="QWx1bm5vO1BDXzg7MjAyNi0wNC0yOTsiMDk6NTE6NTIgIjs0OzIyMzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, x" type="Integer" array="False" size=""/>
+            <output expression="&quot;fino a quanto devo contare?&quot;" newline="True"/>
+            <input variable="x"/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=x">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
